@@ -1,0 +1,67 @@
+h1 {
+  color: blue;
+  font-size: 3em;
+  background-color: yellow;
+  border: 3px solid black;
+}
+.header2{
+  color: black;
+  font-size: 3em;
+}
+
+p {
+  color: blue;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.outer {
+  border: 5px solid black;
+}
+
+
+
+li {
+    color: grey;
+}
+.special {
+  color: orange;
+  font-weight: bold;
+}
+li.special {
+  color: orange;
+  font-weight: bold;
+}
+a:link {
+  color: blue;
+}
+
+.box {
+  background-color:purple;
+  color:white;
+  outline: 0.5rem solid khaki;
+  border-radius: 12px;
+  font: bold 1rem sans-serif;
+  margin: 2rem;
+  padding: 1rem;
+  outline-offset: 0.5rem;
+}
+.image-witcher{
+  width:400px;
+}
+.image-monster{
+  width:400px;
+}
+
+.image-evil{
+  width:400px;
+}
+
+a:visited {
+  color: red;
+}
+a:hover {
+  text-decoration: wavy overline orange;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name= "author" content="Alexander Nguyen">
+    <meta name="description" content="Learning to create inputs">
+    <link rel="stylesheet" href="Style.css">
+    <title>Input Demos</title>
+  </head>
+
+  <body>
+    <!-- put navigation menu just below here -->
+    
+    
+    <h1>Welcome to the Input Demos</h1>
+    <main>
+    <h2>Here are my links of my interest!</h2>
+         <div class="navbar">
+      <ul>
+        <li><a href="Movies.html">Movies</a></li>
+        <li><a href="Videogames.html">Video Games</a></li>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+</div>
+       <!-- A Search form is another commmon non-linear way to navigate through a website. -->
+
+       <form>
+         <input type="search" name="search" placeholder="Search query">
+         <input type="submit" value="Go!">
+       </form>
+     </nav>
+     
+     <p><form action="/action_page.php">
+  <input type="radio" id="Good" name="life" value="Good">
+  <label for="Good"> Life is good.</label><br>
+  <input type="radio" id="Fair" name="life" value="Fair">
+  <label for="Fair"> Life is alright.</label><br>
+  <input type="radio" id="Bad" name="life" value="Bad">
+  <label for="Bad"> Life is shit.</label><br><br>
+  <input type="submit" value="Submit">
+  <input type="reset"></p>
+</form> 
+
+<h1>The input list attribute</h1>
+
+<p>The list attribute refers to a datalist element that contains pre-defined options for an input element.</p>
+
+<p><form action="/action_page.php">
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit" value="Submit">
+  </p>
+</form>
+
+<p><b>Note:</b> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+
+     
+
+    <p>My pictures will go here, when I start taking some.</p>
+    
+    </main>
+  </body>
+</html>
